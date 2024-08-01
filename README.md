@@ -40,9 +40,15 @@ Organizing events and connecting with peers in college can be cumbersome with tr
 
 ## Demo and Screenshots
 
-![Event Listing](#)
-![Registration Page](#)
-![Admin Dashboard](#)
+![Event Listing](https://github.com/user-attachments/assets/23770247-97f5-444f-9098-e46593018b9f)
+![2](https://github.com/user-attachments/assets/ad0dd886-8ecd-4592-a2b6-ef31e1e7049f)
+![3](https://github.com/user-attachments/assets/49441062-e93c-427f-9e61-84bfcfeb1781)
+
+![Registration Page](#)![4](https://github.com/user-attachments/assets/3f7cd10d-747a-4980-9860-4465088cde03)
+![5](https://github.com/user-attachments/assets/c2ac93df-e8ed-4c20-8572-0af1119ccfe9)
+![7](https://github.com/user-attachments/assets/51c2a0ac-c81a-4960-81cb-224d3320b896)
+![6](https://github.com/user-attachments/assets/66283403-5801-45a9-beee-3450c2c595e4)
+
 
 ## Getting Started
 
