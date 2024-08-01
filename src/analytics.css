@@ -1,0 +1,119 @@
+/* analytics.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kalam:wght@300;400;700&display=swap');
+.club-profile {
+    
+    
+    width:100%;
+    margin: 0 auto;
+    
+
+    border-radius: 5px;
+    color:rgb(21, 14, 14);
+}
+
+.club-header {
+text-align: center;
+margin-bottom: 20px;
+font-family: "Chakra Petch", sans-serif;
+font-weight: 400;
+font-size: x-large;
+font-style: italic;
+color: rgb(21, 14, 14);
+width: 100%;
+}
+
+.club-info{
+margin-bottom: 20px;
+align-items: center;
+text-align: center;
+font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(21, 14, 14);
+}
+
+.club-footer {
+text-align: center;
+font-style: italic;
+}
+
+.club-logo {
+    display: block;
+    margin: 0 auto;
+     
+    height: fit-content;
+    width: fit-content;
+    border-radius: 40%; 
+    color: rgb(21, 14, 14);
+}
+.club-analysis {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    font-style: italic;
+    
+    width:100%;
+    
+    padding: 20px;
+    
+    border-radius: 5px;
+    color: rgb(21, 14, 14);
+
+}
+.club-events{
+        font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    font-style: italic;
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+}
+.event-list{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    margin-top:20px ;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgb(21, 14, 14);
+    padding-left:50px;
+    padding-right:50px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-size:smaller;
+    font-style: italic;
+}
+
+.list-img{
+    width: 50px;
+    height: 50px;
+    color: rgb(21, 14, 14);
+}
+.club-event-lists{
+    width:100%;
+    
+    padding: 20px;
+    
+    border-radius: 5px;
+    color: rgb(21, 14, 14);
+}
+
+.graph-anal{
+    padding: 20px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.graph-anal:hover{
+    transform: scale(1.1);
+}
+
+
+  
+  

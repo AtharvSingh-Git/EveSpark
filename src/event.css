@@ -1,0 +1,77 @@
+/* event.css */
+
+.delete-events-container {
+    width: 1000px;
+    background-color: #40679E;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.delete-events-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #40679E;
+}
+
+.delete-event-card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.delete-event-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.delete-event-header h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.delete-event-image {
+    width: 100px;
+    height: 100px;
+}
+
+.delete-event-details {
+    padding: 10px;
+}
+
+.delete-event-details p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #292cea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #292cea;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Puddles&family=Tilt+Neon&display=swap');
+html{
+  background-color: rgb(223, 227, 233);
+}
+.nav-admin{
+  display: flex;
+  flex-direction: row;
+  
+  text-align: center;
+  align-items: center;
+  gap: 40%;
+  
+  width: 100%;
+  background-color: #201b1b;
+  border-radius: 10px;
+  
+  
+  color: #161515;
+  
+
+}
+.eve-heading{
+  font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #141212;
+  margin-left: 50px;
+  
+}
+.subnav-admin{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius:50px;
+  align-items: center;
+  text-align: center;
+  color: #151313;
+  gap:30px;
+  width: 30%;
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-right: 20px;
+}
+.route-page{
+  color: #eacece;
+}
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.admin-name{
+  border-radius: 50px;
+  background-color: aliceblue;
+  width:200px;
+  height: 35px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 17px;
+
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.event-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.event-item img {
+  width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.event-item h3 {
+  margin-bottom: 5px;
+}
+
+.event-item h2 {
+  margin-bottom: 10px;
+}
+
+.event-item p {
+  margin-bottom: 0;
+}
+
+.title-event{
+  border-radius: 10px;
+  border: 1px solid black;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width:500px;
+  height: 100px;
+}

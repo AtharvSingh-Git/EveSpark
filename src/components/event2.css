@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kalam:wght@300;400;700&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Tilt+Neon&display=swap');
+.events-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.event-item {
+    background-color: blue;
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image within the container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 1500px;
+    transition: transform 0.3s ease;
+}
+.btn-like-reg{
+    width: fit-content;
+    margin-right: 300px;
+    border-radius: 30%;
+}
+.event-item:hover {
+    transform: scale(1.05);
+}
+.event-header {
+    color: white;
+    font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    justify-content: center;
+    width: 100%;
+    background-color: blue;
+}
+
+
+.event-title {
+    margin-bottom: 8px;
+    font-size:3rem; /* Adjusted font size */
+    color: white;
+    font-weight: bold; /* Added font weight */
+}
+
+.event-club {
+    color: #e6dfdf;
+    font-size: 1.1rem; /* Adjusted font size */
+}
+
+.event-divider {
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.event-content {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center; /* Align items to the top */
+}
+
+.event-image-container {
+    flex: 0 0 500px;
+    padding-top: 20px; /* Adjust width */
+}
+
+.event-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.event-image:hover {
+    transform: scale(1.1);
+}
+
+.event-details {
+    flex: 1;
+    
+    margin-right: 60px;
+    align-items: center;
+    text-wrap: wrap;
+    width: min-content;
+    font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-size: x-large;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0; /* Take remaining space */
+}
+
+.event-description {
+    margin-bottom: 10px;
+    color: #555;
+    text-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2rem;
+     /* Adjusted font size */
+}
+
+.event-meta {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.event-meta span {
+    margin-right: 20px;
+    color: #000000;
+    font-size: 0.9rem;
+}
+
+.btn-reg{
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}

@@ -1,0 +1,22 @@
+.bar-graph {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.bar {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.bar-label {
+width: 80px; /* Adjust as needed */
+}
+
+.bar-fill {
+background-color: #007bff; /* Blue color, you can change it */
+color: white;
+padding: 5px;
+}
+  

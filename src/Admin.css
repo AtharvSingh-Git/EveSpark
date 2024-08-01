@@ -1,0 +1,167 @@
+.form-full {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.233); /* Semi-transparent black background for the blur effect */
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.admin-form {
+  width:100%;
+  margin:0 auto;
+  border-radius: 8px;
+  background-color: #fff; /* White background for the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.core-admin-form {
+  margin-top: 20px;
+}
+
+.label-default-admin {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.label-default-admin-des {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+  height: 80px; /* Set a specific height for the description input */
+  resize: none; /* Disable textarea resizing */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.spann-label-text {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.btn-close-form {
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.admin-form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.core-admin-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-control-file {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.admin-host-event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #f9f9f9;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.host-head-kode-mono h1 {
+  font-family: 'KoHo', sans-serif;
+  font-size: 32px;
+  color: #f9f9f9;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.host-para-ojuju p {
+  font-size: 18px;
+  color: #f9f9f9;
+  text-align: center;
+}
+.eve-head{
+  margin: 0 auto;
+  padding-left: 35%;
+}
+.button-primary {
+  margin-top: 20px;
+}
+
+.preview-events {
+  margin-top: 40px;
+}
+
+
+
+
