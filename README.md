@@ -44,6 +44,7 @@ Organizing events and connecting with peers in college can be cumbersome with tr
   <img src="https://github.com/user-attachments/assets/17725c4e-7664-4627-be50-cedd17a61014" style="width: 45%; margin-right: 10px;" />
   <img src="https://github.com/user-attachments/assets/61077540-dfe1-41fb-b037-e9fe87258c03" style="width: 45%;" />
 </div>
+
 ## Demo and Screenshots
 
 ![Event Listing](https://github.com/user-attachments/assets/23770247-97f5-444f-9098-e46593018b9f)
